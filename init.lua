@@ -52,7 +52,7 @@ require('lazy').setup({
 		lazy = false,
 		config = function()
 			require('nvim-treesitter.configs').setup({
-				parser_install_dir = vim.fn.stdpath('data')..'site/parser',
+				parser_install_dir = vim.fn.stdpath('data')..'/site/parser',
 				ensure_installed = {
 					'bash', 'python', 'c', 'cpp', 'lua',
 					'markdown', 'markdown_inline'

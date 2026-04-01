@@ -2,6 +2,12 @@
 
 DarkVim adalah konfigurasi Neovim yang dirancang untuk meningkatkan produktivitas dan kenyamanan dalam pengembangan perangkat lunak. Dengan fokus pada kecepatan, efisiensi, dan estetika, DarkVim menyediakan lingkungan kerja yang optimal untuk para pengembang. DarkVim juga dapat digunakan pada perangkat Android dengan menggunakan Termux, memungkinkan pengembangan di mana saja.
 
+### Screenshots
+
+![Dashboard](screenshots/dashboard.png)
+![Editor with File Explorer](screenshots/editor-fe.png)
+![Editor with File Explorer and Terminal](screenshots/editor-feNt.png)
+
 ## Fitur Utama
 
 - **Tema Gelap**: DarkVim menggunakan tema gelap [coal.nvim](https://github.com/cranberry-clockworks/coal.nvim) yang nyaman untuk mata.

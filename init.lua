@@ -255,7 +255,7 @@ require('lazy').setup({
 				open_mapping = [[<C-t>]],
 				hide_numbers = true,
 				shade_filetypes = {},
-				shade_terminals = true,
+				shade_terminals = false,
 				shading_factor = 2,
 				start_in_insert = true,
 				insert_mappings = true,
@@ -263,6 +263,12 @@ require('lazy').setup({
 				direction = 'horizontal',
 				close_on_exit = true,
 				shell = vim.o.shell,
+				-- Uncomment the following lines to enable transparent background for the terminal (optional, but recommended for a tilling window manager setup)
+				-- highlight = {
+				--	Normal = { guibg = 'NONE' },
+				--	NormalFloat = { guibg = 'NONE' },
+				--	FloatBorder = { guibg = 'NONE' },
+				-- },
 			})
 		end,
 	},

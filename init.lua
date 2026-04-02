@@ -105,7 +105,8 @@ require('lazy').setup({
 	-- Note: Recommended to remove this plugin if you are using an old device or have limited resources, as it can be resource-intensive. Not recommended enable this plugin if you are using Neovim via Termux on Android, as it may cause performance issues.
 	{
 		'github/copilot.vim',
-		lazy = false,
+		lazy = true,
+		cmd = {'Copilot', 'CopilotEnable', 'CopilotDisable', 'CopilotStatus'},
 	},
 	-- LSP Setup:
 	-- Mason (williamboman/mason.nvim) for managing LSP servers
